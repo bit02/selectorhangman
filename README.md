@@ -1,1 +1,1 @@
-# client-ledger-s
+# client-ledger-service: a REST endpoint for accept
