@@ -2,4 +2,4 @@
 
 ## What does it do
 
-client-ledger-service is part 1 of the 3 parts of a simple ledger demo over event-sourcing, using commoditized
+client-ledger-service is part 1 of the 3 parts of a simple ledger demo over event-sourcing, using commoditized software and simple set 
