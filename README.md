@@ -2,4 +2,4 @@
 
 ## What does it do
 
-client-ledger-service is part 
+client-ledger-service is part 1 of the 3 parts of a s
