@@ -6,4 +6,6 @@ client-ledger-service is part 1 of the 3 parts of a simple ledger demo over even
 
 ## Quick start
 
-### Step
+### Step 1
+
+Go to stress test folde
