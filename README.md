@@ -8,4 +8,9 @@ client-ledger-service is part 1 of the 3 parts of a simple ledger demo over even
 
 ### Step 1
 
-Go to stress test folde
+Go to stress test folder
+```
+cd stress
+```
+
+Run Kaf
