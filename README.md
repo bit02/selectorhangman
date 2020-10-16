@@ -13,4 +13,4 @@ Go to stress test folder
 cd stress
 ```
 
-Run Kaf
+Run Kafka (Assuming you are runnin
