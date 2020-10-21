@@ -15,4 +15,4 @@ cd stress
 
 Run Kafka (Assuming you are running on Mac, and you have already installed Apache Kafka). 
 
-*The script uses default config which has only 1 partition. M
+*The script uses default config which has only 1 partition. Make sure you config to at le
