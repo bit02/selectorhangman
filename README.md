@@ -14,3 +14,5 @@ cd stress
 ```
 
 Run Kafka (Assuming you are running on Mac, and you have already installed Apache Kafka). 
+
+*The script uses default config w
