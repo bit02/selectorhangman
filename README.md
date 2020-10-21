@@ -13,4 +13,4 @@ Go to stress test folder
 cd stress
 ```
 
-Run Kafka (Assuming you are running on Mac, and you have alre
+Run Kafka (Assuming you are running on Mac, and you have already installed Apache Kafka). 
