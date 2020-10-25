@@ -22,4 +22,4 @@ sudo ./kafka.sh
 
 ### Step 2
 
-Run the End to End Stress Test, which send 1,000 p2p trans
+Run the End to End Stress Test, which send 1,000 p2p transactions into the 
