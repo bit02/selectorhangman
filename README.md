@@ -24,4 +24,7 @@ sudo ./kafka.sh
 
 Run the End to End Stress Test, which send 1,000 p2p transactions into the http endpoint.
 ```
-./e2e.
+./e2e.sh
+```
+
+### Step 3
