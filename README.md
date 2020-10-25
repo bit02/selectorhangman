@@ -28,3 +28,5 @@ Run the End to End Stress Test, which send 1,000 p2p transactions into the http 
 ```
 
 ### Step 3
+
+Get the two competing
