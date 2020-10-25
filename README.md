@@ -22,4 +22,4 @@ sudo ./kafka.sh
 
 ### Step 2
 
-Run the 
+Run the End to End Stress Test,
