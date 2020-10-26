@@ -32,4 +32,4 @@ Run the End to End Stress Test, which send 1,000 p2p transactions into the http 
 Get the two competing consumers.
 Maria-DB based consumer:
 ```
-git clone https://github
+git clone https://github.com/andrewkkchan/client-ledger-cor
