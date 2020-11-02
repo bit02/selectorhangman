@@ -34,4 +34,6 @@ Maria-DB based consumer:
 ```
 git clone https://github.com/andrewkkchan/client-ledger-core-db.git
 ```
-Redis base
+Redis based consumer:
+```
+git clone 
