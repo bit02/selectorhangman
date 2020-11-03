@@ -36,4 +36,4 @@ git clone https://github.com/andrewkkchan/client-ledger-core-db.git
 ```
 Redis based consumer:
 ```
-git clone https://github.com/andrewk
+git clone https://github.com/andrewkkchan/client-ledger-core-
