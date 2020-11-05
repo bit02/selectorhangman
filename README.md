@@ -41,4 +41,4 @@ git clone https://github.com/andrewkkchan/client-ledger-core-redis.git
 
 ## Abstract
 
-Common practices of relying on ACID properties of database in resolving conflicts and recovering from failure would not
+Common practices of relying on ACID properties of database in resolving conflicts and recovering from failure would not scale in high-concurrency
