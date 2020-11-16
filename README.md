@@ -43,4 +43,4 @@ git clone https://github.com/andrewkkchan/client-ledger-core-redis.git
 
 Common practices of relying on ACID properties of database in resolving conflicts and recovering from failure would not scale in high-concurrency, low-latency use cases (e.g., trading, betting, payment).
 This sharing offers a quick overview of event sourcing framework, and how one can build a fully working ledger using simply commodity, open sourced products (e.g., Apache Kafka).
-This sharing further explores a more complicated use 
+This sharing further explores a more complicated use cases, where stochasti
