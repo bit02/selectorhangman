@@ -45,4 +45,5 @@ Common practices of relying on ACID properties of database in resolving conflict
 This sharing offers a quick overview of event sourcing framework, and how one can build a fully working ledger using simply commodity, open sourced products (e.g., Apache Kafka).
 This sharing further explores a more complicated use cases, where stochastic scenarios could be baked into traditional event sourcing to produce real time, big data type, operational intelligence. 
 
-## Why Eve
+## Why Event Sourcing?
+Ledger which relies on dat
