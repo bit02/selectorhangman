@@ -46,4 +46,4 @@ This sharing offers a quick overview of event sourcing framework, and how one ca
 This sharing further explores a more complicated use cases, where stochastic scenarios could be baked into traditional event sourcing to produce real time, big data type, operational intelligence. 
 
 ## Why Event Sourcing?
-Ledger which relies on database ACID properties will handle up to 10-20 transaction per second. When pushed over that, there is a chance that the business rule (e.g., client ledger balance
+Ledger which relies on database ACID properties will handle up to 10-20 transaction per second. When pushed over that, there is a chance that the business rule (e.g., client ledger balance must not be overdrawn, a.k.a., <0) wi
