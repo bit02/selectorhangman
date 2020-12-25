@@ -56,4 +56,4 @@ In commercial products with trading, betting and payment enterprises, I have ach
 * Replace HTTP endpoint with TCP endpoint. For example, use Kafka/Solace as incoming message handlers -- which would remove the limitation of HTTP protocol and HTTP server overhead.
 
 ### Step 2: To 100,000 per second
-* Replace Messaging endpoint on 
+* Replace Messaging endpoint on TCP with those on UDP.  Yo
