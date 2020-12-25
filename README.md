@@ -55,4 +55,5 @@ In commercial products with trading, betting and payment enterprises, I have ach
 ### Step 1: To 10,000 per second
 * Replace HTTP endpoint with TCP endpoint. For example, use Kafka/Solace as incoming message handlers -- which would remove the limitation of HTTP protocol and HTTP server overhead.
 
-### 
+### Step 2: To 100,000 per second
+* Replac
