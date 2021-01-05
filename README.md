@@ -58,4 +58,4 @@ In commercial products with trading, betting and payment enterprises, I have ach
 ### Step 2: To 100,000 per second
 * Replace Messaging endpoint on TCP with those on UDP.  You will however need to maintain reliable in sequence transfer of events.
 * Replace non-positional data encoding (e.g., JSON, XML) for positional data encoding (e.g., protobuf, SBE)
-* Install competing consumers, with at least o
+* Install competing consumers, with at least one of which being implemen
