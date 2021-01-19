@@ -64,4 +64,5 @@ In commercial products with trading, betting and payment enterprises, I have ach
 * Avoid garbage collection using pre-allocated ring buffer and other technique.
 
 ### Contact
-You can follow me on https://medium.c
+You can follow me on https://medium.com/@andrewchan_73514
+
