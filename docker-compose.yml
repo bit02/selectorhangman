@@ -10,4 +10,5 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "
+      - "3003:3003"
+    networks
