@@ -1,4 +1,5 @@
 version: "2.1"
 
 networks:
-  client-
+  client-ledger-core-db_test:
+    external: tr
