@@ -8,4 +8,6 @@ services:
   app:
     build:
       context: .
-      dockerf
+      dockerfile: Dockerfile
+    ports:
+      - "
