@@ -7,4 +7,5 @@ networks:
 services:
   app:
     build:
-  
+      context: .
+      dockerf
