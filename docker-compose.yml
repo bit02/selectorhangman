@@ -11,4 +11,5 @@ services:
       dockerfile: Dockerfile
     ports:
       - "3003:3003"
-    networks
+    networks:
+      - client-ledger-core-db_t
