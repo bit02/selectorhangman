@@ -12,4 +12,6 @@ services:
     ports:
       - "3003:3003"
     networks:
-      - client-ledger-core-db_t
+      - client-ledger-core-db_test
+
+
