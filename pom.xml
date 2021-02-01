@@ -6,4 +6,5 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.1.2.RELEASE</version>
     </parent>
-    <groupId>com.industrieit.le
+    <groupId>com.industrieit.ledger</groupId>
+    <artifa
