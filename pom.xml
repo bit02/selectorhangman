@@ -7,4 +7,4 @@
         <version>2.1.2.RELEASE</version>
     </parent>
     <groupId>com.industrieit.ledger</groupId>
-    <artifa
+    <artifactId>client-ledger-service</a
