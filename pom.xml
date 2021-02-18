@@ -10,4 +10,5 @@
     <artifactId>client-ledger-service</artifactId>
     <packaging>jar</packaging>
     <name>client-ledger-service</name>
-    <version>1.0.0-SNAPSHO
+    <version>1.0.0-SNAPSHOT</version>
+    <propert
