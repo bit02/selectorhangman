@@ -8,4 +8,5 @@
     </parent>
     <groupId>com.industrieit.ledger</groupId>
     <artifactId>client-ledger-service</artifactId>
-    <packagin
+    <packaging>jar</packaging>
+    <name>client-ledg
