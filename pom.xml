@@ -9,4 +9,5 @@
     <groupId>com.industrieit.ledger</groupId>
     <artifactId>client-ledger-service</artifactId>
     <packaging>jar</packaging>
-    <name>client-ledg
+    <name>client-ledger-service</name>
+    <ve
