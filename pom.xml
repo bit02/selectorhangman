@@ -12,4 +12,5 @@
     <name>client-ledger-service</name>
     <version>1.0.0-SNAPSHOT</version>
     <properties>
-        <jav
+        <java.version>1.8</java.version>
+     
