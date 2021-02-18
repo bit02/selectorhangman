@@ -11,4 +11,5 @@
     <packaging>jar</packaging>
     <name>client-ledger-service</name>
     <version>1.0.0-SNAPSHOT</version>
-    <propert
+    <properties>
+        <jav
