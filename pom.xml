@@ -20,4 +20,5 @@
         <dependency-check-maven.version>4.0.2</dependency-check-maven.version>
         <maven-checkstyle-plugin.version>3.0.0</maven-checkstyle-plugin.version>
         <maven-surefire-report-plugin.version>2.22.0</maven-surefire-report-plugin.version>
-        <maven-javadoc-plugin.version>3.0.1</maven-javadoc-p
+        <maven-javadoc-plugin.version>3.0.1</maven-javadoc-plugin.version>
+     
