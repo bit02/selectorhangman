@@ -25,4 +25,5 @@
         <maven-changelog-plugin.version>2.3</maven-changelog-plugin.version>
         <maven-dependency-plugin.version>3.1.1</maven-dependency-plugin.version>
         <maven-changes-plugin.version>2.12.1</maven-changes-plugin.version>
-        <license-maven-plugin.version>1.16</license-mave
+        <license-maven-plugin.version>1.16</license-maven-plugin.version>
+      
