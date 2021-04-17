@@ -34,4 +34,6 @@
         <springfox-version>2.7.0</springfox-version>
         <spring-kafka.version>2.2.2.RELEASE</spring-kafka.version>
 
+    </properties>
+
     
