@@ -31,4 +31,4 @@
         <sortpom-maven-plugin.version>2.8.0</sortpom-maven-plugin.version>
         <license-check-maven-plugin.version>0.5.3</license-check-maven-plugin.version>
         <properties-maven-plugin.version>1.0.0</properties-maven-plugin.version>
-        <springfox-ver
+        <springfox-version>2.7.0</springfox-vers
