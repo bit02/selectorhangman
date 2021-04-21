@@ -43,4 +43,5 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <executions>
                     <execution>
-                
+                        <goals>
+      
