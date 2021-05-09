@@ -48,4 +48,6 @@
                         </goals>
                     </execution>
                 </executions>
-            </plu
+            </plugin>
+        </plugins>
+   
