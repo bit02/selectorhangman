@@ -44,4 +44,5 @@
                 <executions>
                     <execution>
                         <goals>
-                            <goal>repackage</goa
+                            <goal>repackage</goal>
+                        <
