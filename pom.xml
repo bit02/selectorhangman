@@ -71,4 +71,5 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.springfra
+            <groupId>org.springframework.kafka</groupId>
+         
