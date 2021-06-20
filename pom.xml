@@ -72,4 +72,4 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.kafka</groupId>
-            <artifactId>spring-
+            <artifactId>spring-kafka</artifactId>
