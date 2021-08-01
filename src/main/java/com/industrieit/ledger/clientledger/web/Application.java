@@ -9,4 +9,4 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-public class Application impl
+public class Application implements CommandLineRunner {
