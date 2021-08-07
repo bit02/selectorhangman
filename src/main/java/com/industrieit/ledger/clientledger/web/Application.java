@@ -13,4 +13,4 @@ public class Application implements CommandLineRunner {
 
     @Override
     public void run(String... arg0) {
-      
+        if (arg0.length > 0 && arg0
