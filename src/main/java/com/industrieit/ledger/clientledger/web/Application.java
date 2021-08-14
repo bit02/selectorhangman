@@ -15,4 +15,7 @@ public class Application implements CommandLineRunner {
     public void run(String... arg0) {
         if (arg0.length > 0 && arg0[0].equals("exitcode")) {
             throw new ExitException();
-   
+        }
+    }
+
+    public
