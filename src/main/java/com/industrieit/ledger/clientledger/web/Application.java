@@ -18,4 +18,4 @@ public class Application implements CommandLineRunner {
         }
     }
 
-    public
+    public static void main(String[]
