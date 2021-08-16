@@ -18,4 +18,5 @@ public class Application implements CommandLineRunner {
         }
     }
 
-    public static void main(String[]
+    public static void main(String[] args) {
+        new SpringApplicat
