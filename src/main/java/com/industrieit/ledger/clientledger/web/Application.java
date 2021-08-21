@@ -19,4 +19,4 @@ public class Application implements CommandLineRunner {
     }
 
     public static void main(String[] args) {
-        new SpringApplicat
+        new SpringApplication(Application.class).run(args);
