@@ -25,4 +25,4 @@ public class Application implements CommandLineRunner {
     /**
      * Exit Exception on command line args of exitcode
      */
-    public static class ExitException exten
+    public static class ExitException extends RuntimeException implemen
