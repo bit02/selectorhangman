@@ -25,4 +25,4 @@ public class Application implements CommandLineRunner {
     /**
      * Exit Exception on command line args of exitcode
      */
-    pub
+    public static class ExitException exten
