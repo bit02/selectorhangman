@@ -26,4 +26,4 @@ public class Application implements CommandLineRunner {
      * Exit Exception on command line args of exitcode
      */
     public static class ExitException extends RuntimeException implements ExitCodeGenerator {
-       
+        private static final lon
