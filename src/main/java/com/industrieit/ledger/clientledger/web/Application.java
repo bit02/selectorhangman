@@ -30,4 +30,5 @@ public class Application implements CommandLineRunner {
 
         @Override
         public int getExitCode() {
-      
+            return 10;
+        }
