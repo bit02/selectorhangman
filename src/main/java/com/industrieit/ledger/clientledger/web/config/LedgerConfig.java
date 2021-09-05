@@ -16,3 +16,28 @@ import org.springframework.kafka.support.serializer.JsonSerializer;
 
 import java.util.HashMap;
 import java.util.Map;
+
+/**
+ * Centralized place to inject beans
+ */
+@Configuration
+public class LedgerConfig {
+    /**
+     * @return {@link Logger} for standardized logging
+     */
+    @Bean
+    public Logger logger() {
+        return LoggerFactory.getLogger("com.industrieit.dragon.clientledger.web");
+    }
+
+    /**
+     * @return {@link ObjectMapper} for JSON serialization, as Ledger is JSON-based.
+     */
+    @Bean
+    public ObjectMapper objectMapper() {
+        return new ObjectMapper();
+    }
+
+    @Bean
+    public ProducerFactory<String, TransactionEvent> producerFactoryForEvent() {
+        Map<String, Object> config = new HashMap<>();
