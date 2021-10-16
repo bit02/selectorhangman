@@ -13,4 +13,4 @@ import org.springframework.web.bind.annotation.*;
 import java.util.UUID;
 
 /**
- * REST Controller which is exclusively allow
+ * REST Controller which is exclusively allowed to POST on the Ledge
