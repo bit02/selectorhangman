@@ -16,4 +16,5 @@ import java.util.UUID;
  * REST Controller which is exclusively allowed to POST on the Ledger through creating and enqueuing {@link TransactionEvent}
  */
 @RestController
-@RequestMapping("/transa
+@RequestMapping("/transaction")
+public class TransactionCont
