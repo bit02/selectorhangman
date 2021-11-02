@@ -19,4 +19,5 @@ import java.util.UUID;
 @RequestMapping("/transaction")
 public class TransactionController {
 
-    private fina
+    private final ObjectMapper objectMapper;
+    p
