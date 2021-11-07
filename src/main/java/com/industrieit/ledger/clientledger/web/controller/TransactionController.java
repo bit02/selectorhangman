@@ -20,4 +20,4 @@ import java.util.UUID;
 public class TransactionController {
 
     private final ObjectMapper objectMapper;
-    private final KafkaTemplate
+    private final KafkaTemplate<String, TransactionEvent
