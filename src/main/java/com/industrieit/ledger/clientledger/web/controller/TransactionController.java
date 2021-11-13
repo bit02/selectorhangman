@@ -21,4 +21,4 @@ public class TransactionController {
 
     private final ObjectMapper objectMapper;
     private final KafkaTemplate<String, TransactionEvent> kafkaTemplate;
-    p
+    public static final String TOPIC = 
