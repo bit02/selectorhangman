@@ -27,4 +27,4 @@ public class TransactionController {
 
     public TransactionController(
             ObjectMapper objectMapper,
-            KafkaTemplate
+            KafkaTemplate<String, TransactionEvent> kafk
