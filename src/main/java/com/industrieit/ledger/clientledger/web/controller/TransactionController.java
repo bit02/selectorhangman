@@ -26,4 +26,5 @@ public class TransactionController {
 
 
     public TransactionController(
-            ObjectMapper object
+            ObjectMapper objectMapper,
+            KafkaTemplate
