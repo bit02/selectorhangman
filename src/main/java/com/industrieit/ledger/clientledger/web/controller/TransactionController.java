@@ -29,4 +29,4 @@ public class TransactionController {
             ObjectMapper objectMapper,
             KafkaTemplate<String, TransactionEvent> kafkaTemplate) {
         this.objectMapper = objectMapper;
-     
+        this.kafkaTemplat
