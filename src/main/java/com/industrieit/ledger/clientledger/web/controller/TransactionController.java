@@ -34,4 +34,4 @@ public class TransactionController {
 
     /**
      * Create and Enqueue one {@link TransactionEvent} onto the Blocking Queue for consumer to consume.
-     * Raise {@link ServiceExcep
+     * Raise {@link ServiceException} if unable to read th
