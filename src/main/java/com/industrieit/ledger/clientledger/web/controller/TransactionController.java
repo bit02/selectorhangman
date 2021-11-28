@@ -33,4 +33,5 @@ public class TransactionController {
     }
 
     /**
-     * Create and Enqueue one {@link TransactionEvent} onto the Blocking Queue for consumer to c
+     * Create and Enqueue one {@link TransactionEvent} onto the Blocking Queue for consumer to consume.
+     * Raise {@link ServiceExcep
