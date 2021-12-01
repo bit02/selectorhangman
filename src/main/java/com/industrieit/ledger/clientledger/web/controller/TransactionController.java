@@ -34,4 +34,4 @@ public class TransactionController {
 
     /**
      * Create and Enqueue one {@link TransactionEvent} onto the Blocking Queue for consumer to consume.
-     * Raise {@link ServiceException} if unable to read the request JSON body, or th
+     * Raise {@link ServiceException} if unable to read the request JSON body, or the request type is not suppor
