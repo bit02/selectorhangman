@@ -37,4 +37,4 @@ public class TransactionController {
      * Raise {@link ServiceException} if unable to read the request JSON body, or the request type is not supported by {@link Type}
      *
      * @param requestEnvelop request for a transaction which mutates the Ledger's state
-     * @return one 
+     * @return one {@link TransactionEvent} eithe
