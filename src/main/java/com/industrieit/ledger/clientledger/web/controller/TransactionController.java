@@ -38,4 +38,5 @@ public class TransactionController {
      *
      * @param requestEnvelop request for a transaction which mutates the Ledger's state
      * @return one {@link TransactionEvent} either created and enqueued, or already in the queue
- 
+     */
+    @PostMapping(valu
