@@ -40,4 +40,4 @@ public class TransactionController {
      * @return one {@link TransactionEvent} either created and enqueued, or already in the queue
      */
     @PostMapping(value = "/event",
-          
+            produces = {"applica
