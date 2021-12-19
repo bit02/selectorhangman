@@ -41,4 +41,5 @@ public class TransactionController {
      */
     @PostMapping(value = "/event",
             produces = {"application/json"},
-            consumes = {"app
+            consumes = {"application/json"})
+    @ResponseBody
