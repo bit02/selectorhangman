@@ -43,4 +43,5 @@ public class TransactionController {
             produces = {"application/json"},
             consumes = {"application/json"})
     @ResponseBody
-    public TransactionEvent queueTransaction(@RequestBody Re
+    public TransactionEvent queueTransaction(@RequestBody RequestEnvelop requestEnvelop) {
+    
