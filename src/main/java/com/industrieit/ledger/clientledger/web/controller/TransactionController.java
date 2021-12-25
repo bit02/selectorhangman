@@ -46,4 +46,4 @@ public class TransactionController {
     public TransactionEvent queueTransaction(@RequestBody RequestEnvelop requestEnvelop) {
         TransactionEvent transactionEvent = new TransactionEvent();
         try {
-      
+            transactionEvent.setRequ
