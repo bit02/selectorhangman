@@ -44,4 +44,4 @@ public class TransactionController {
             consumes = {"application/json"})
     @ResponseBody
     public TransactionEvent queueTransaction(@RequestBody RequestEnvelop requestEnvelop) {
-        TransactionEvent transact
+        TransactionEvent transactionEvent = new TransactionEvent()
