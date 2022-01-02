@@ -46,4 +46,5 @@ public class TransactionController {
     public TransactionEvent queueTransaction(@RequestBody RequestEnvelop requestEnvelop) {
         TransactionEvent transactionEvent = new TransactionEvent();
         try {
-            transactionEvent.setRequest(objectMapper.writeValueAsString(requestEnvelop.getReq
+            transactionEvent.setRequest(objectMapper.writeValueAsString(requestEnvelop.getRequest()));
+        } catch (Json
