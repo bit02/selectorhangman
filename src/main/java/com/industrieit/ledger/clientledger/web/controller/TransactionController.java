@@ -48,4 +48,6 @@ public class TransactionController {
         try {
             transactionEvent.setRequest(objectMapper.writeValueAsString(requestEnvelop.getRequest()));
         } catch (JsonProcessingException e) {
-            throw new ServiceException(LedgerServiceErrorMessage.REQUEST_
+            throw new ServiceException(LedgerServiceErrorMessage.REQUEST_UNREADABLE);
+        }
+ 
