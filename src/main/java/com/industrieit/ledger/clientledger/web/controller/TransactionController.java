@@ -47,4 +47,5 @@ public class TransactionController {
         TransactionEvent transactionEvent = new TransactionEvent();
         try {
             transactionEvent.setRequest(objectMapper.writeValueAsString(requestEnvelop.getRequest()));
-        } catch (JsonProcessingException e) 
+        } catch (JsonProcessingException e) {
+            throw new Ser
