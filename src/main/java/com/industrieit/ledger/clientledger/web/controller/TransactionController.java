@@ -48,4 +48,4 @@ public class TransactionController {
         try {
             transactionEvent.setRequest(objectMapper.writeValueAsString(requestEnvelop.getRequest()));
         } catch (JsonProcessingException e) {
-            throw new Ser
+            throw new ServiceException(LedgerServiceE
