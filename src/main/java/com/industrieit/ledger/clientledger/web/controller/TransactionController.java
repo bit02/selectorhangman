@@ -50,4 +50,4 @@ public class TransactionController {
         } catch (JsonProcessingException e) {
             throw new ServiceException(LedgerServiceErrorMessage.REQUEST_UNREADABLE);
         }
-        transactionEvent.setId(requestEnvelop.getId() == null ? UUID.randomUUID().toString() : r
+        transactionEvent.setId(requestEnvelop.getId() == null ? UUID.randomUUID().toString() : requestEnvelop.getId());
