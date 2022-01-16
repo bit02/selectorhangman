@@ -51,3 +51,4 @@ public class TransactionController {
             throw new ServiceException(LedgerServiceErrorMessage.REQUEST_UNREADABLE);
         }
         transactionEvent.setId(requestEnvelop.getId() == null ? UUID.randomUUID().toString() : requestEnvelop.getId());
+        for (Type type : Type.values
