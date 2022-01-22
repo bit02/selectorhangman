@@ -52,4 +52,4 @@ public class TransactionController {
         }
         transactionEvent.setId(requestEnvelop.getId() == null ? UUID.randomUUID().toString() : requestEnvelop.getId());
         for (Type type : Type.values()) {
-            if (requestEn
+            if (requestEnvelop.getType().equals(type.toStr
