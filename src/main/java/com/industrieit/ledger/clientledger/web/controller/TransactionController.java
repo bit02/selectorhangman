@@ -54,3 +54,4 @@ public class TransactionController {
         for (Type type : Type.values()) {
             if (requestEnvelop.getType().equals(type.toString())) {
                 transactionEvent.setType(requestEnvelop.getType());
+                kafkaTemplate.send
