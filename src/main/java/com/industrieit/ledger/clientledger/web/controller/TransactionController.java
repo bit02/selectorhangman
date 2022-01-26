@@ -56,4 +56,6 @@ public class TransactionController {
                 transactionEvent.setType(requestEnvelop.getType());
                 kafkaTemplate.send(TOPIC, transactionEvent);
                 return transactionEvent;
-     
+            }
+        }
+        thr
