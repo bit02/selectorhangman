@@ -58,4 +58,4 @@ public class TransactionController {
                 return transactionEvent;
             }
         }
-        thr
+        throw new ServiceException(Le
