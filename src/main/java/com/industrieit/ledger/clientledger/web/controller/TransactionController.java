@@ -58,4 +58,4 @@ public class TransactionController {
                 return transactionEvent;
             }
         }
-        throw new ServiceException(Le
+        throw new ServiceException(LedgerServiceErrorMessage.TYPE_
