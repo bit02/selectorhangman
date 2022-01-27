@@ -58,4 +58,5 @@ public class TransactionController {
                 return transactionEvent;
             }
         }
-        throw new ServiceException(LedgerServiceErrorMessage.TYPE_
+        throw new ServiceException(LedgerServiceErrorMessage.TYPE_NOT_SUPPORTED);
+    }
