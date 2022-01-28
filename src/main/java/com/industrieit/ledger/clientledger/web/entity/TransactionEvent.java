@@ -39,3 +39,16 @@ public class TransactionEvent {
         this.request = request;
     }
 
+
+    /**
+     * @return type as defined in {@link Type} which calls for correct processor
+     */
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+}
