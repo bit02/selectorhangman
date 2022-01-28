@@ -18,3 +18,24 @@ public class TransactionEvent {
     private String request;
 
     /**
+     * @return id which uniquely identify this transaction event.
+     */
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    /**
+     * @return payload of the request, usually a JSON string
+     */
+    public String getRequest() {
+        return request;
+    }
+
+    public void setRequest(String request) {
+        this.request = request;
+    }
+
