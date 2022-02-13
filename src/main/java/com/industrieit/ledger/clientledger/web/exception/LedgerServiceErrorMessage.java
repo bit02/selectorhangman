@@ -1,4 +1,4 @@
 package com.industrieit.ledger.clientledger.web.exception;
 
 
-import com.industrieit.ledger.clientledger.w
+import com.industrieit.ledger.clientledger.web.entity.Transaction
