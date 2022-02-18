@@ -5,4 +5,4 @@ import com.industrieit.ledger.clientledger.web.entity.TransactionEvent;
 import com.industrieit.ledger.clientledger.web.model.request.RequestEnvelop;
 
 /**
- * Runtime tran
+ * Runtime transaction thrown before {@link Reque
