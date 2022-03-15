@@ -9,4 +9,4 @@ import com.industrieit.ledger.clientledger.web.model.request.RequestEnvelop;
  * No {@link TransactionEvent} will be created and enqueued when the exception is thrown
  */
 public enum LedgerServiceErrorMessage implements MessageDetail {
-    TYPE
+    TYPE_NOT_SUPPORTED("LDR-1001", "T
