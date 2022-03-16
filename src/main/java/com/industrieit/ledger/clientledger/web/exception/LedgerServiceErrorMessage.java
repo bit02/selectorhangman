@@ -10,4 +10,8 @@ import com.industrieit.ledger.clientledger.web.model.request.RequestEnvelop;
  */
 public enum LedgerServiceErrorMessage implements MessageDetail {
     TYPE_NOT_SUPPORTED("LDR-1001", "Transaction Type Not Supported"),
-    REQUEST_UNREADABLE("LDR-1002", "Transaction Request Unread
+    REQUEST_UNREADABLE("LDR-1002", "Transaction Request Unreadable"),
+
+    ;
+
+    priva
