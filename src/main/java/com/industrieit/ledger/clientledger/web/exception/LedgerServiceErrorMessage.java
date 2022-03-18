@@ -17,4 +17,4 @@ public enum LedgerServiceErrorMessage implements MessageDetail {
     private String code;
     private String messageKey;
 
-    LedgerServiceErrorMessage(St
+    LedgerServiceErrorMessage(String code, String messageKey) {
