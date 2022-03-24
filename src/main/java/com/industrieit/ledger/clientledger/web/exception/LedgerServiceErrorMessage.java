@@ -23,4 +23,5 @@ public enum LedgerServiceErrorMessage implements MessageDetail {
     }
 
     public String getCode() {
-   
+        return code;
+    }
