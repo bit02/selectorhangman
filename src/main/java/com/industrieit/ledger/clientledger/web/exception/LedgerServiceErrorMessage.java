@@ -22,4 +22,5 @@ public enum LedgerServiceErrorMessage implements MessageDetail {
         this.messageKey = messageKey;
     }
 
-    pub
+    public String getCode() {
+   
