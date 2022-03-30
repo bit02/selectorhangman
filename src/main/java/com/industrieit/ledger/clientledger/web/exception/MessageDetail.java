@@ -1,3 +1,5 @@
 package com.industrieit.ledger.clientledger.web.exception;
 
-public interface M
+public interface MessageDetail {
+
+    String get
