@@ -1,1 +1,3 @@
-package com.industrieit.ledger.clientledger.web.e
+package com.industrieit.ledger.clientledger.web.exception;
+
+public interface M
