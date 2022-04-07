@@ -4,4 +4,6 @@ public interface MessageDetail {
 
     String getCode();
 
-    String ge
+    String getMessageKey();
+
+}
