@@ -1,4 +1,4 @@
 package com.industrieit.ledger.clientledger.web.exception;
 
 
-publ
+public class ServiceException 
