@@ -5,4 +5,6 @@ public class ServiceException extends RuntimeException {
 
     private String errorCode;
 
-    private String errorMes
+    private String errorMessage;
+
+    public Service
