@@ -7,4 +7,5 @@ public class ServiceException extends RuntimeException {
 
     private String errorMessage;
 
-    public ServiceException(MessageDetail mess
+    public ServiceException(MessageDetail messageDetail) {
+        super(m
