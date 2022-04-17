@@ -8,4 +8,5 @@ public class ServiceException extends RuntimeException {
     private String errorMessage;
 
     public ServiceException(MessageDetail messageDetail) {
-        super(messageDetail.getMessageKey()
+        super(messageDetail.getMessageKey());
+        this.errorCod
