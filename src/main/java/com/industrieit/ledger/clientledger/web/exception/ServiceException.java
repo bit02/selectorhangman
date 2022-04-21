@@ -10,4 +10,4 @@ public class ServiceException extends RuntimeException {
     public ServiceException(MessageDetail messageDetail) {
         super(messageDetail.getMessageKey());
         this.errorCode = messageDetail.getCode();
-  
+        this.errorMessage = mess
