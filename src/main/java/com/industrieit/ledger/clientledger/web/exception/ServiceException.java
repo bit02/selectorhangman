@@ -18,4 +18,4 @@ public class ServiceException extends RuntimeException {
         return errorCode;
     }
 
-    pub
+    public String getErrorMe
