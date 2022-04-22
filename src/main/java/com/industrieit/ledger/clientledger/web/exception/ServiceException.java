@@ -14,4 +14,5 @@ public class ServiceException extends RuntimeException {
     }
 
 
-    public String getErrorCo
+    public String getErrorCode() {
+        return errorC
