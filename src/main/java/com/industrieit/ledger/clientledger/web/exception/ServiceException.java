@@ -19,4 +19,7 @@ public class ServiceException extends RuntimeException {
     }
 
     public String getErrorMessage() {
-        return errorM
+        return errorMessage;
+    }
+
+}
