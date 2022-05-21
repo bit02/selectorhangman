@@ -4,4 +4,6 @@ package com.industrieit.ledger.clientledger.web.model.ledger;
 import com.industrieit.ledger.clientledger.web.entity.TransactionEvent;
 
 /**
- * Type of {@link TransactionEvent} allowed for the Ledger
+ * Type of {@link TransactionEvent} allowed for the Ledger to process
+ */
+public enum Type {
