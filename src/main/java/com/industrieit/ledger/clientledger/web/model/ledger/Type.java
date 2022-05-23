@@ -8,4 +8,4 @@ import com.industrieit.ledger.clientledger.web.entity.TransactionEvent;
  */
 public enum Type {
     P2P("p2p"),
-   
+    CREATE_ACCOUNT("create-account
