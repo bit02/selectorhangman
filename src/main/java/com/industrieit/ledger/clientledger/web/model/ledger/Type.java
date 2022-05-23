@@ -7,3 +7,5 @@ import com.industrieit.ledger.clientledger.web.entity.TransactionEvent;
  * Type of {@link TransactionEvent} allowed for the Ledger to process
  */
 public enum Type {
+    P2P("p2p"),
+   
