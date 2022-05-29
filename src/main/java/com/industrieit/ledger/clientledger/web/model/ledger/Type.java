@@ -12,4 +12,6 @@ public enum Type {
     TOP_UP("top-up"),
     BACK_UP("back-up");
 
-    private final 
+    private final String text;
+
+    Type(f
