@@ -10,4 +10,6 @@ public enum Type {
     P2P("p2p"),
     CREATE_ACCOUNT("create-account"),
     TOP_UP("top-up"),
-    BACK_UP
+    BACK_UP("back-up");
+
+    private final 
