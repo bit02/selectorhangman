@@ -15,4 +15,7 @@ public enum Type {
     private final String text;
 
     Type(final String text) {
-       
+        this.text = text;
+    }
+
+    
