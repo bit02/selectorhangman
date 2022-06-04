@@ -19,4 +19,5 @@ public enum Type {
     }
 
     @Override
-    public St
+    public String toString() {
+  
