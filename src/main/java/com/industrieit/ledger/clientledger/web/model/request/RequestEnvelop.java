@@ -23,3 +23,30 @@ public class RequestEnvelop {
     public void setType(String type) {
         this.type = type;
     }
+
+    private String type;
+
+    private JsonNode request;
+
+    /**
+     * @return an important field for idempotency, must be generated from the client using {@link java.util.UUID} when in production
+     */
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    /**
+     * @return any JSON object which is the payload for creating {@link TransactionEvent}
+     */
+    public JsonNode getRequest() {
+        return request;
+    }
+
+    public void setRequest(JsonNode request) {
+        this.request = request;
+    }
+}
