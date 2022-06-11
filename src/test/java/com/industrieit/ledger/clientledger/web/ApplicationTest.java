@@ -8,4 +8,6 @@ public class ApplicationTest {
     @Test
     public void testRun() {
         Application application = new Application();
-        appl
+        application.run();
+    }
+
