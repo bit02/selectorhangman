@@ -7,4 +7,5 @@ public class ApplicationTest {
 
     @Test
     public void testRun() {
-        Application application = n
+        Application application = new Application();
+        appl
