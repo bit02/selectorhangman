@@ -12,4 +12,5 @@ public class ApplicationTest {
     }
 
     @Test
-    public void tes
+    public void testRunWithParam() {
+        tr
