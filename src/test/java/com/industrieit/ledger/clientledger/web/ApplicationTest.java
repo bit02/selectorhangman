@@ -14,4 +14,4 @@ public class ApplicationTest {
     @Test
     public void testRunWithParam() {
         try {
-            Application app
+            Application application = new Applicatio
