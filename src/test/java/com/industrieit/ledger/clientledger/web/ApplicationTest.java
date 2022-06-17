@@ -13,4 +13,5 @@ public class ApplicationTest {
 
     @Test
     public void testRunWithParam() {
-        tr
+        try {
+            Application app
