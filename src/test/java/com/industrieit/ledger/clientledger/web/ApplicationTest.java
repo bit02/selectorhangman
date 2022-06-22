@@ -15,4 +15,5 @@ public class ApplicationTest {
     public void testRunWithParam() {
         try {
             Application application = new Application();
-            application.ru
+            application.run("exitcode");
+        } c
