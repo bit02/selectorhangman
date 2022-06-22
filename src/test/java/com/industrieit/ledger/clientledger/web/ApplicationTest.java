@@ -16,4 +16,4 @@ public class ApplicationTest {
         try {
             Application application = new Application();
             application.run("exitcode");
-        } c
+        } catch (Application.ExitE
