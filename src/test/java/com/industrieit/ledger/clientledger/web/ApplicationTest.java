@@ -16,4 +16,5 @@ public class ApplicationTest {
         try {
             Application application = new Application();
             application.run("exitcode");
-        } catch (Application.ExitE
+        } catch (Application.ExitException e) {
+            Assert.a
