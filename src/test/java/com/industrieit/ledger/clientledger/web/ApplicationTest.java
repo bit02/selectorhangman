@@ -17,4 +17,7 @@ public class ApplicationTest {
             Application application = new Application();
             application.run("exitcode");
         } catch (Application.ExitException e) {
-            Assert.assertEquals(10, e.getEx
+            Assert.assertEquals(10, e.getExitCode());
+        }
+    }
+}
