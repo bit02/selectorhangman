@@ -20,4 +20,6 @@ import org.springframework.kafka.core.KafkaTemplate;
 
 import java.io.IOException;
 
-import static org.mockito.Argument
+import static org.mockito.ArgumentMatchers.nullable;
+
+public cla
