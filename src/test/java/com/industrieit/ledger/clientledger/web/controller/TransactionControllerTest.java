@@ -24,4 +24,4 @@ import static org.mockito.ArgumentMatchers.nullable;
 
 public class TransactionControllerTest {
     @Rule
-    public Expect
+    public ExpectedException thrown = ExpectedExc
