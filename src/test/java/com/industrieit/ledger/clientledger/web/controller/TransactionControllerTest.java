@@ -27,4 +27,4 @@ public class TransactionControllerTest {
     public ExpectedException thrown = ExpectedException.none();
 
     @Mock
-    p
+    private ObjectMapper objectMapp
