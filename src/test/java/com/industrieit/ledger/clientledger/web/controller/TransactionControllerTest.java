@@ -30,4 +30,5 @@ public class TransactionControllerTest {
     private ObjectMapper objectMapper;
     @Mock
     private KafkaTemplate<String, TransactionEvent> kafkaTemplate;
-    @InjectMock
+    @InjectMocks
+    private TransactionControlle
