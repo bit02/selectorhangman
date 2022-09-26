@@ -32,3 +32,6 @@ public class TransactionControllerTest {
     private KafkaTemplate<String, TransactionEvent> kafkaTemplate;
     @InjectMocks
     private TransactionController transactionController;
+
+    @Before
+    public void before
