@@ -36,4 +36,4 @@ public class TransactionControllerTest {
     @Before
     public void before() {
         MockitoAnnotations.initMocks(this);
-        Mockito.when(k
+        Mockito.when(kafkaTemplate.send(nullable
