@@ -35,4 +35,4 @@ public class TransactionControllerTest {
 
     @Before
     public void before() {
-        MockitoAnn
+        MockitoAnnotations.initMocks(this);
