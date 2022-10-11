@@ -41,4 +41,4 @@ public class TransactionControllerTest {
 
     @Test
     public void testQueueTransaction() throws IOException {
-        Requ
+        RequestEnvelop requestEnvelop = ne
