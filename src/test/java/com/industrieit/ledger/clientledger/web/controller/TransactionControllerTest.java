@@ -42,4 +42,5 @@ public class TransactionControllerTest {
     @Test
     public void testQueueTransaction() throws IOException {
         RequestEnvelop requestEnvelop = new RequestEnvelop();
-        requestEnvelop.setId("
+        requestEnvelop.setId("1234");
+        requestEnvelop.
