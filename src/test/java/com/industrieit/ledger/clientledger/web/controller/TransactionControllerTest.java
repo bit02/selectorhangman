@@ -43,4 +43,4 @@ public class TransactionControllerTest {
     public void testQueueTransaction() throws IOException {
         RequestEnvelop requestEnvelop = new RequestEnvelop();
         requestEnvelop.setId("1234");
-        requestEnvelop.
+        requestEnvelop.setType(Type.P2P.toString
