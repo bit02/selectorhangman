@@ -45,4 +45,4 @@ public class TransactionControllerTest {
         requestEnvelop.setId("1234");
         requestEnvelop.setType(Type.P2P.toString());
         requestEnvelop.setRequest(null);
-        Mockito.when
+        Mockito.when(objectMapper.writeValue
