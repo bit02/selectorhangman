@@ -46,4 +46,4 @@ public class TransactionControllerTest {
         requestEnvelop.setType(Type.P2P.toString());
         requestEnvelop.setRequest(null);
         Mockito.when(objectMapper.writeValueAsString(nullable(Object.class))).thenReturn("{}");
-        TransactionEvent transactionEvent = transactionController.queue
+        TransactionEvent transactionEvent = transactionController.queueTransaction(requestEn
