@@ -51,4 +51,4 @@ public class TransactionControllerTest {
     }
 
     @Test
-    public void testQueueT
+    public void testQueueTransaction_typeNotSupported() throws
