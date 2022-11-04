@@ -52,4 +52,4 @@ public class TransactionControllerTest {
 
     @Test
     public void testQueueTransaction_typeNotSupported() throws IOException {
-        t
+        thrown.expect(ServiceEx
