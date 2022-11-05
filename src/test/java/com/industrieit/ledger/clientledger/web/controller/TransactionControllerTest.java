@@ -53,4 +53,5 @@ public class TransactionControllerTest {
     @Test
     public void testQueueTransaction_typeNotSupported() throws IOException {
         thrown.expect(ServiceException.class);
-        thrown.expectMessage(LedgerServiceErrorMessage.TYPE_NOT_SUPPORTED.getMessageKey(
+        thrown.expectMessage(LedgerServiceErrorMessage.TYPE_NOT_SUPPORTED.getMessageKey());
+        RequestEnvelop r
