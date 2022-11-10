@@ -55,4 +55,5 @@ public class TransactionControllerTest {
         thrown.expect(ServiceException.class);
         thrown.expectMessage(LedgerServiceErrorMessage.TYPE_NOT_SUPPORTED.getMessageKey());
         RequestEnvelop requestEnvelop = new RequestEnvelop();
-        request
+        requestEnvelop.setId("1234");
+ 
