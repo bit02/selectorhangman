@@ -57,4 +57,5 @@ public class TransactionControllerTest {
         RequestEnvelop requestEnvelop = new RequestEnvelop();
         requestEnvelop.setId("1234");
         requestEnvelop.setType("burn-it-down");
-        requestEnvelop.setRequest(nu
+        requestEnvelop.setRequest(null);
+        Mockito.when(object
