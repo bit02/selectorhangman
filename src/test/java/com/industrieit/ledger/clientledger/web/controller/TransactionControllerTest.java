@@ -56,4 +56,5 @@ public class TransactionControllerTest {
         thrown.expectMessage(LedgerServiceErrorMessage.TYPE_NOT_SUPPORTED.getMessageKey());
         RequestEnvelop requestEnvelop = new RequestEnvelop();
         requestEnvelop.setId("1234");
-        requestEnvelop
+        requestEnvelop.setType("burn-it-down");
+        
