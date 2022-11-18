@@ -59,4 +59,4 @@ public class TransactionControllerTest {
         requestEnvelop.setType("burn-it-down");
         requestEnvelop.setRequest(null);
         Mockito.when(objectMapper.writeValueAsString(nullable(Object.class))).thenReturn("{}");
-        TransactionEvent transacti
+        TransactionEvent transactionEvent = transactionController.que
