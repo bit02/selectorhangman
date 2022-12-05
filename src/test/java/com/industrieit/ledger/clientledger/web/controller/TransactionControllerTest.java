@@ -63,4 +63,5 @@ public class TransactionControllerTest {
         Assert.assertNull(transactionEvent);
     }
 
-    
+    @Test
+    public voi
