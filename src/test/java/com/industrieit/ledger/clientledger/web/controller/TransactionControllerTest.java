@@ -64,4 +64,5 @@ public class TransactionControllerTest {
     }
 
     @Test
-    public void testQueueTransaction_requestUnreadable() throws I
+    public void testQueueTransaction_requestUnreadable() throws IOException {
+        
