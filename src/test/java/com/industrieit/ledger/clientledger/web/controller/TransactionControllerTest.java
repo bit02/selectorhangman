@@ -65,4 +65,5 @@ public class TransactionControllerTest {
 
     @Test
     public void testQueueTransaction_requestUnreadable() throws IOException {
-        thrown.expect(ServiceExceptio
+        thrown.expect(ServiceException.class);
+        thrown.expectMess
