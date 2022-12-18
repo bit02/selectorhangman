@@ -67,4 +67,4 @@ public class TransactionControllerTest {
     public void testQueueTransaction_requestUnreadable() throws IOException {
         thrown.expect(ServiceException.class);
         thrown.expectMessage(LedgerServiceErrorMessage.REQUEST_UNREADABLE.getMessageKey());
-        RequestEnvelop requestEnvelop = ne
+        RequestEnvelop requestEnvelop = new RequestEnvelop();
