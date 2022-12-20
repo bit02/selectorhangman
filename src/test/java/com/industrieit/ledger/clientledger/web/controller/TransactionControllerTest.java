@@ -68,4 +68,5 @@ public class TransactionControllerTest {
         thrown.expect(ServiceException.class);
         thrown.expectMessage(LedgerServiceErrorMessage.REQUEST_UNREADABLE.getMessageKey());
         RequestEnvelop requestEnvelop = new RequestEnvelop();
-        requestEnvelop.setI
+        requestEnvelop.setId("1234");
+        requestEnv
