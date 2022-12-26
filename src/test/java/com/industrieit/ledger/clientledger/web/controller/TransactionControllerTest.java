@@ -69,4 +69,5 @@ public class TransactionControllerTest {
         thrown.expectMessage(LedgerServiceErrorMessage.REQUEST_UNREADABLE.getMessageKey());
         RequestEnvelop requestEnvelop = new RequestEnvelop();
         requestEnvelop.setId("1234");
-        requestEnvelop.setType(Type.P2
+        requestEnvelop.setType(Type.P2P.toString());
+        req
