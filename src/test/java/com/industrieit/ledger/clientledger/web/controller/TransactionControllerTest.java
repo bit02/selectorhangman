@@ -70,4 +70,5 @@ public class TransactionControllerTest {
         RequestEnvelop requestEnvelop = new RequestEnvelop();
         requestEnvelop.setId("1234");
         requestEnvelop.setType(Type.P2P.toString());
-        requestEnvelop.setRequest
+        requestEnvelop.setRequest(null);
+        Mockito.when
