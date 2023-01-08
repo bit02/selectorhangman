@@ -73,4 +73,4 @@ public class TransactionControllerTest {
         requestEnvelop.setRequest(null);
         Mockito.when(objectMapper.writeValueAsString(nullable(Object.class))).thenThrow(new JsonEOFException(null, null, null));
         TransactionEvent transactionEvent = transactionController.queueTransaction(requestEnvelop);
-        Assert.assertN
+        Assert.assertNull(transactionEvent)
