@@ -72,4 +72,5 @@ public class TransactionControllerTest {
         requestEnvelop.setType(Type.P2P.toString());
         requestEnvelop.setRequest(null);
         Mockito.when(objectMapper.writeValueAsString(nullable(Object.class))).thenThrow(new JsonEOFException(null, null, null));
-        TransactionEvent transactionEvent = transactionController.queueTransaction(requestEnvelo
+        TransactionEvent transactionEvent = transactionController.queueTransaction(requestEnvelop);
+        Assert.assertN
