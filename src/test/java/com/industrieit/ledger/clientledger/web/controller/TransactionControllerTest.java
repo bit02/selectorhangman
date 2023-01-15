@@ -80,4 +80,4 @@ public class TransactionControllerTest {
     public void testQueueTransaction_idempotency() throws IOException {
         RequestEnvelop requestEnvelop = new RequestEnvelop();
         requestEnvelop.setId("1234");
-        reque
+        requestEnvelop.setType(Type.P2P.toStri
