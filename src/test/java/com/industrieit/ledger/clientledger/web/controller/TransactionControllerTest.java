@@ -79,4 +79,5 @@ public class TransactionControllerTest {
     @Test
     public void testQueueTransaction_idempotency() throws IOException {
         RequestEnvelop requestEnvelop = new RequestEnvelop();
-        requestEnve
+        requestEnvelop.setId("1234");
+        reque
