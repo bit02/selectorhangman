@@ -84,4 +84,6 @@ public class TransactionControllerTest {
         requestEnvelop.setRequest(null);
         Mockito.when(objectMapper.writeValueAsString(nullable(Object.class))).thenReturn("{}");
         TransactionEvent transactionEvent = transactionController.queueTransaction(requestEnvelop);
-        Assert.assertNotNull(
+        Assert.assertNotNull(transactionEvent);
+    }
+}
