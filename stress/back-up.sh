@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-#Backup, have no effect on Maria Cor
+#Backup, have no effect on Maria Core, but trigger save 
