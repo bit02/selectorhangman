@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 #Backup, have no effect on Maria Core, but trigger save to disk on Redis Core
-GRE
+GREEN='\033[0;32m'
+NC='\033[0m
