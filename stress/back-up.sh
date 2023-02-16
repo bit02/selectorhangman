@@ -3,4 +3,5 @@
 GREEN='\033[0;32m'
 NC='\033[0m' # No Color
 echo -e "${GREEN}Top Up Payer Account with USD 1,000,000${NC}"
-curl -X P
+curl -X POST \
+  http://localhost:3003/transa
