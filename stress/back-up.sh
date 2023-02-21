@@ -8,4 +8,6 @@ curl -X POST \
   -H 'Content-Type: application/json' \
   -d '{
 	"type" : "back-up",
-    "req
+    "request" : {}
+}'
+echo '\n'
