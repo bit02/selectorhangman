@@ -5,4 +5,5 @@ NC='\033[0m' # No Color
 echo -e "${GREEN}Top Up Payer Account with USD 1,000,000${NC}"
 curl -X POST \
   http://localhost:3003/transaction/event \
-  -H 'Content-Type
+  -H 'Content-Type: application/json' \
+  -d 
