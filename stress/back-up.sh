@@ -6,4 +6,6 @@ echo -e "${GREEN}Top Up Payer Account with USD 1,000,000${NC}"
 curl -X POST \
   http://localhost:3003/transaction/event \
   -H 'Content-Type: application/json' \
-  -d 
+  -d '{
+	"type" : "back-up",
+    "req
