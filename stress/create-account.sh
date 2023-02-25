@@ -9,3 +9,25 @@ curl -X POST \
   http://localhost:3003/transaction/event \
   -H 'Content-Type: application/json' \
   -d '{
+	"type" : "create-account",
+    "request" : {
+        "id" : "12345",
+        "currency" :"USD",
+        "accountName" : "Andrew",
+        "accountGroup" : "Customer"
+    }
+}'
+echo '\n'
+echo -e "${GREEN}Creating Payee Account${NC}"
+curl -X POST \
+  http://localhost:3003/transaction/event \
+  -H 'Content-Type: application/json' \
+  -d '{
+	"type" : "create-account",
+    "request" : {
+        "id" : "23456",
+        "currency" :"USD",
+        "accountName" : "Tim",
+        "accountGroup" : "Customer"
+    }
+}'
