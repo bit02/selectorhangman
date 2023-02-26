@@ -31,3 +31,36 @@ curl -X POST \
         "accountGroup" : "Customer"
     }
 }'
+echo '\n'
+echo -e "${GREEN}Creating Fee Account${NC}"
+curl -X POST \
+  http://localhost:3003/transaction/event \
+  -H 'Content-Type: application/json' \
+  -d '{
+	"type" : "create-account",
+    "request" : {
+        "id" : "34567",
+        "currency" :"USD",
+        "accountName" : "P2P Fee",
+        "accountGroup" : "Fee"
+    }
+}'
+echo '\n'
+echo -e "${GREEN}Creating Tax Account${NC}"
+curl -X POST \
+  http://localhost:3003/transaction/event \
+  -H 'Content-Type: application/json' \
+  -d '{
+	"type" : "create-account",
+    "request" : {
+        "id" : "45678",
+        "currency" :"USD",
+        "accountName" : "P2P Tax",
+        "accountGroup" : "Tax"
+    }
+}'
+echo '\n'
+echo -e "${GREEN}Creating Settlement Account${NC}"
+curl -X POST \
+  http://localhost:3003/transaction/event \
+  -H 'Content-Type: application/json' \
