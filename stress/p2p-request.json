@@ -1,3 +1,5 @@
 {
   "type": "p2p",
-  "r
+  "request": {
+    "currency": "USD",
+ 
