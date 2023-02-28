@@ -64,3 +64,14 @@ echo -e "${GREEN}Creating Settlement Account${NC}"
 curl -X POST \
   http://localhost:3003/transaction/event \
   -H 'Content-Type: application/json' \
+  -d '{
+	"type" : "create-account",
+    "request" : {
+        "id" : "56789",
+        "currency" :"USD",
+        "accountName" : "Andrew'\''s settlement",
+        "accountGroup" : "Settlement"
+    }
+}'
+echo '\n'
+
