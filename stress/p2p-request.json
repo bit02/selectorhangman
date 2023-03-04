@@ -6,4 +6,5 @@
     "fee": 10,
     "tax": 5,
     "fromCustomerAccount": "12345",
-    "to
+    "toCustomerAccount": "23456",
+    "
