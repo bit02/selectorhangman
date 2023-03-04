@@ -2,4 +2,5 @@
   "type": "p2p",
   "request": {
     "currency": "USD",
- 
+    "amount": 100,
+    "fee": 10
