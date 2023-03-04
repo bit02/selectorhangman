@@ -3,4 +3,6 @@
   "request": {
     "currency": "USD",
     "amount": 100,
-    "fee": 10
+    "fee": 10,
+    "tax": 5,
+    "from
