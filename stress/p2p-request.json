@@ -5,4 +5,5 @@
     "amount": 100,
     "fee": 10,
     "tax": 5,
-    "from
+    "fromCustomerAccount": "12345",
+    "to
