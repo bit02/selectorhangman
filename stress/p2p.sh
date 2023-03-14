@@ -3,4 +3,4 @@
 GREEN='\033[0;32m'
 NC='\033[0m' # No Color
 echo -e "${GREEN}P2P USD 100 from Payer to Payee, for 5,000 times at a rate of 1000/s${NC}"
-echo "POS
+echo "POST http://localhost:3003/trans
