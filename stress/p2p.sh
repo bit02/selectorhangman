@@ -6,4 +6,4 @@ echo -e "${GREEN}P2P USD 100 from Payer to Payee, for 5,000 times at a rate of 1
 echo "POST http://localhost:3003/transaction/event
 Content-Type: application/json
 @./p2p-request.json
-"| vegeta attack -duration=5s -rate
+"| vegeta attack -duration=5s -rate=1000 | tee results.bin | vegeta
