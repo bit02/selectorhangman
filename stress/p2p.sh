@@ -7,4 +7,5 @@ echo "POST http://localhost:3003/transaction/event
 Content-Type: application/json
 @./p2p-request.json
 "| vegeta attack -duration=5s -rate=1000 | tee results.bin | vegeta report
-  vegeta report -type=json results.bin > metrics.
+  vegeta report -type=json results.bin > metrics.json
+  cat results.bin | vegeta
